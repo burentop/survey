@@ -44,7 +44,28 @@
               Rock
             </label>
           </div>
+          <div class="form-group">
+            <label for="born">Date of birth:</label>
+            <input id="born" class="form-control" type="date" />
+          </div>
+          <div class="form-group">
+            <label for="color">Favorite color:</label>
+            <input id="color" class="form-control" type="color" />
+          </div>
+          <button type="submit" class="btn">Submit</button>
         </form>
+      </div>
+      <p></p>
+      <div class="well results">
+        <h2>Thank you!</h2>
+        <h3>Confirmation:</h3>
+        <ul>
+          <li>Name: <span id="result-name"></span></li>
+          <li>Favorite food: <span id="result-food"></span></li>
+          <li>Favorite music: <span id="result-music"></span></li>
+          <li>Date of birth: <span id="result-born"></span></li>
+          <li>Favorite color: <span id="result-color"></span></li>
+        </ul>
       </div>
     </div>
   </body>
